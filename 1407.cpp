@@ -93,9 +93,10 @@ int main() {
         }
     }
 
-    for (int i = 1; i <= n; ++i) {
-        Rank[sa[i]] = i;
-    }
+    // no need
+//    for (int i = 1; i <= n; ++i) {
+//        Rank[sa[i]] = i;
+//    }
 
     // i is the index of nums
     for (int i = 1, j = 0; i <= n; ++i) {
